@@ -1,0 +1,30 @@
+{
+  "name": "foxy-json",
+  "version": "0.1.0",
+  "description": "A customizable stringifier for pretty, human readable, JSON",
+  "main": "foxy-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delventhalz/foxy-json.git"
+  },
+  "keywords": [
+    "json",
+    "stringify",
+    "pretty",
+    "custom",
+    "readable"
+  ],
+  "author": {
+    "name": "Zac Delventhal",
+    "email": "delventhalz@gmail.com",
+    "url": "https://github.com/delventhalz"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delventhalz/foxy-json/issues"
+  },
+  "homepage": "https://github.com/delventhalz/foxy-json#readme"
+}
