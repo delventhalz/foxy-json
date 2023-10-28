@@ -4,7 +4,8 @@
   "description": "A customizable stringifier for pretty, human readable, JSON",
   "main": "foxy-json.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/delventhalz/foxy-json/issues"
   },
-  "homepage": "https://github.com/delventhalz/foxy-json#readme"
+  "homepage": "https://github.com/delventhalz/foxy-json#readme",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  }
 }
